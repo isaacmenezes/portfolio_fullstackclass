@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-righteous {
+  font-family: 'Righteous', cursive, sans-serif;
+}
+
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* 3D Extruded Retro Title styling mirroring the reference image */
+.text-retro-extruded {
+  background: linear-gradient(180deg, #ff82c2 0%, #ffc670 65%, #fff2a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 3px 0px #1e2d9b) drop-shadow(4px 6px 0px #131c66);
+}
+
+.text-retro-extruded-blue {
+  background: linear-gradient(180deg, #60a5fa 0%, #a78bfa 60%, #f472b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 3px 0px #1e2d9b) drop-shadow(4px 6px 0px #131c66);
+}
+
+/* Grid background for designer artboard feel */
+.bg-designer-grid {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(75, 104, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(75, 104, 255, 0.08) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(59, 82, 245, 0.15) 1.5px, transparent 1.5px);
+  background-size: 16px 16px;
+}
+
